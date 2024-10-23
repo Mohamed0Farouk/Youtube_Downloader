@@ -9,6 +9,7 @@ customtkinter = "*"
 requests = "*"
 pytubefix = "*"
 pillow = "*"
+pytube = "*"
 
 [dev-packages]
 

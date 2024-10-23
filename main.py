@@ -71,7 +71,8 @@ class YouTubeDownloader:
 
     def get_video_info(self, url):
         try:
-            yt = YouTube(url)
+            yt = YouTube(url ,'WEB_EMBED',)
+            
             title = yt.title
             duration = yt.length
             thumbnail_url = yt.thumbnail_url
